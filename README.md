@@ -12,10 +12,37 @@ Este projeto é um agente de Inteligência Artificial desenvolvido em Python que
 - **Interface:** Streamlit (Web UI)
 
 ## 🚀 Funcionalidades
-- [ ] Upload de documentos PDF/TXT.
-- [ ] Processamento e indexação inteligente (RAG).
-- [ ] Chat interativo para perguntas e respostas sobre os arquivos.
-- [ ] Execução 100% offline e gratuita.
+- [x] Extração de texto de arquivos PDF.
+- [x] Fragmentação inteligente de texto (Chunking) para alta performance.
+- [x] Busca semântica por similaridade (o agente entende o contexto).
+- [ ] Upload de documentos via interface Web.
+- [ ] Chat interativo com histórico de conversa.
+- [x] Execução 100% offline e gratuita.
 
+---
+
+## 💻 Como Instalar e Rodar
+
+1. Configurar o Ambiente Virtual
+# Criar o ambiente
+python -m venv venv
+
+# Ativar o ambiente (Windows)
+source venv/Scripts/activate.
+
+2. Instalar Dependências
+Bash
+pip install langchain-community langchain-ollama langchain-huggingface pypdf faiss-cpu sentence-transformers
+
+3. Baixar Modelos no Ollama
+Bash
+ollama pull llama3
+ollama pull phi3
+
+4. Executar o Agente
+Bash
+python agente_pro.py
+---
 ## 🚧 Status do Projeto
-Em desenvolvimento 🛠️
+Em desenvolvimento 🛠️ Próximo passo: Implementação da interface gráfica com Streamlit.
+Desenvolvido por Vitoria
