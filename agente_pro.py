@@ -31,5 +31,5 @@ def perguntar_ao_documento(pergunta):
     return llm.invoke(prompt)
 
 print("--- 🧠 Agente com Memória Ativo! ---")
-pergunta_usuario = "Qual o tema principal desse documento?"
+pergunta_usuario = "Me indique uma receita doce para fazer."
 print(f"Resposta: {perguntar_ao_documento(pergunta_usuario)}")
