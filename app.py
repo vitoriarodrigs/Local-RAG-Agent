@@ -80,7 +80,6 @@ if uploaded_files:
                 contexto_texto = "\n".join([doc.page_content for doc in contexto_relevante])
                 
                 # --- LÓGICA DE MEMÓRIA DE CURTO PRAZO ---
-                # Pegamos as últimas 2 trocas de mensagens para dar contexto
                 historico_recente = "\n".join([f"{m['role']}: {m['content']}" for m in st.session_state.messages[-3:-1]])
                 
                 prompt_final = f"""Você é um assistente prestativo. Use o histórico e o contexto para responder.
