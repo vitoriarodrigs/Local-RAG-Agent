@@ -119,18 +119,15 @@ streamlit run app.py
 
 ---
 
-## 🚧 Status do Projeto
+## 🚧 Status do Projeto ( Concluído)
 
 Atualmente o projeto está implementado com:
 
 ✔ Motor de busca vetorial
 ✔ Integração com LLM local
 ✔ Interface gráfica em Streamlit
-
-Próximas etapas:
-⬜ Suporte multi-PDF
-⬜ Memória de contexto no chat
-
+✔ Suporte multi-PDF
+✔ Memória de contexto no chat
 ---
 
 ## 👩‍💻 Autora
