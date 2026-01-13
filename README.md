@@ -43,8 +43,8 @@ A interface foi construída com **Streamlit** para oferecer uma experiência de 
 * [x] **Busca semântica** usando embeddings
 * [x] **Respostas via LLM local**
 * [x] **Execução offline** e **privativa**
-* [ ] Suporte a múltiplos arquivos simultâneos
-* [ ] Memória de curto prazo no chat
+* [x] Suporte a múltiplos arquivos simultâneos
+* [x] Memória de curto prazo no chat
 
 ---
 
